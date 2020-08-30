@@ -9,7 +9,7 @@ class CommitizenGo < Formula
 
   def install
     # ENV.deparallelize  # if your formula fails when building in parallel
-    bin.install "commitizen"
+    bin.install "commitizen-go"
   end
 
   test do
