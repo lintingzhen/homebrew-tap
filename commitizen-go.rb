@@ -4,8 +4,8 @@
 class CommitizenGo < Formula
   desc "The commitizen command line utility, without nodejs."
   homepage "https://github.com/lintingzhen/commitizen-go"
-  url "https://github.com/lintingzhen/commitizen-go/releases/download/v1.0.0/commitizen-Darwin-x86-1.0.0.tgz"
-  sha256 "db381c47bd8a07e2056a3d0d7affe29bd2d8938b9e4fb8c91dc664c33a0c65f7"
+  url "https://github.com/lintingzhen/commitizen-go/releases/download/v1.0.2/commitizen-go_1.0.2_darwin_amd64.tar.gz"
+  sha256 "20d37f7edabf4a597a1b1e32e8cccf1571b141fda9bb4ea857edcf2ee3bbf2a9"
 
   def install
     # ENV.deparallelize  # if your formula fails when building in parallel
